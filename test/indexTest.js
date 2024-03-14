@@ -33,7 +33,7 @@ describe('logWhisper(string)', function() {
 
     expect(spy).toHaveBeenCalledWith('hello');
 
-    console.log.restore();
+    //console.log.restore();
   })
 })
 
